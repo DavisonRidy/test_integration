@@ -1,0 +1,71 @@
+/*Responsive */
+@media screen and (max-width: 1240px)
+{
+    .slide-info p {
+        font-size: 22px;
+    }
+    .slide-info p span {
+        display: inline-flex;
+        font-size: 170%;
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+    .slide-info p.text-p {
+        font-size: 15px;
+        margin: 0 30px;
+    }
+    .slide-info p span {
+        display: block;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .slide-info p.text-p {
+        font-size: 13px;
+        margin: 0 20px;
+    }
+    .slide-info p span {
+        display: block;
+        font-size: 22px;
+        padding-top: -40px;
+    }
+    .slide-info{
+        top: 10%
+    }
+} 
+@media screen and (max-width: 450px)
+{
+    .slide-info p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .slide-info section div.short-line{
+        display: none;
+    }
+    .slide-info section button{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+
+} 
+@media screen and (max-width: 350px)
+{
+    .slide-info p {
+        font-size: 10px;
+        padding-bottom: 15px;
+        line-height: 15px;
+    }
+    .slide-info p span {
+        font-size: 15px;
+        padding-top: -40px;
+    }
+    .slide-info p br {
+        display: none;
+    }
+
+} 

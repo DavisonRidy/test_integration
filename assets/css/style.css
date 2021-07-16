@@ -1,0 +1,139 @@
+/*css general*/
+
+.container-all{
+    text-align: center;
+    max-width: 100%;
+}
+.text-p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3{
+    color: #3C2839;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+.btn-b{
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 3px 43px;
+    margin: 0 auto;
+}
+/*header*/
+/* menu pour mobile*/
+#main-menu-mobile{
+    position: absolute;
+    width: 80%;
+    z-index: 5;
+}
+#main-menu-mobile ul{
+    width: 100%;
+    float: right;
+    background-color:rgba(14, 13, 13, 0.479)
+}
+#main-menu-mobile ul li{
+    list-style: none;
+}
+#main-menu-mobile ul li a{
+    color: white;
+    text-transform: capitalize;
+}
+#main-menu-mobile{
+    display: none;
+}
+.burger{
+    float: right;
+    margin-right: 40px;
+    position: relative;
+    z-index: 10;
+}
+.burger a{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+
+}
+.menu-icon{
+    position: absolute;
+}
+header nav{
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    top: 16px;
+    margin-right: 12.5%;
+    float: right;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/* mis en form du logo*/
+.logo-nav {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 4%;
+}
+.logo {
+    margin-left: 16%;
+    float: left;
+    position: relative;
+    text-transform: uppercase;
+}
+.logo a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.menu-container li {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu-item::after {
+    content: '/';
+    color: white;
+    margin: 0 10px;
+}
+.menu-container a{
+    color: white;
+}
+@media screen and (max-width: 800px)
+{
+    .logo{
+        margin-left:10%;
+    }
+    .logo a {
+        font-size: 12px;
+    }
+    .menu-container a{
+        text-transform: capitalize;
+        font-size: 10;
+        margin: 0 5px;
+    }
+} 
+@media screen and (max-width: 500px)
+{
+    .logo{
+        margin-left:5%;
+    }
+    .logo a {
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width: 350px)
+{
+    .logo{
+        margin-left:3%;
+    }
+    .logo a {
+        font-size: 11px;
+    }
+} 
